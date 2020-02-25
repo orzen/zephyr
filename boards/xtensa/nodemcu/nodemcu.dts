@@ -1,0 +1,13 @@
+identifier: esp8266
+name: ESP-8266
+type: mcu
+arch: xtensa
+toolchain:
+  - xtensa-lx106
+supported:
+  - gpio
+  - i2c
+  - i2s
+  - watchdog
+  - uart
+  - pinmux
